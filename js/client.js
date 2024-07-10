@@ -5,13 +5,6 @@ const messageInput = document.getElementById('messageInp')
 const messageContainer = document.querySelector(".container")
 // var audio = new Audio('ping-43537.mp3');
 
-// const corsOptions = {
-//     origin: 'http://localhost:8000', // Replace with the domain you want to allow
-//     optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
-//   };
-  
-// app.use(cors(corsOptions));
-  
 const append = (message, position)=>{
     const messageElement = document.createElement('div');
     messageElement.innerText = message;
