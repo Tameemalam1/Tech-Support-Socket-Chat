@@ -9,6 +9,7 @@
   "author": "tameem alam",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "socket.io": "^4.7.5"
   }
 }
